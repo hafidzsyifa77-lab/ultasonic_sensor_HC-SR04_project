@@ -23,10 +23,6 @@ This project is an **ESP32-based control system** that uses an **HC-SR04 ultraso
 > **Important:** Always use a **Voltage Divider** (1k $\Omega$ and 2k $\Omega$ resistors) on the Echo pin to step down the 5V signal to 3.3V, ensuring the safety of your ESP32 GPIO pin.
 
 
-
-[Image of voltage divider circuit diagram]
-
-
 ## How It Works
 1. The ESP32 sends a trigger signal and measures the pulse width of the reflected ultrasonic wave via the echo pin.
 2. The distance is calculated in centimeters.
